@@ -1,21 +1,9 @@
 # Exam (Group 5P)
 This program was developed as part of an exam for the Programming Languages course.
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Wycentrowany obrazek</title>
-    <style>
-        img {
-            display: block;
-            margin: auto;
-        }
-    </style>
-</head>
-<body>
+<p align="center">
     <img width="500" alt="image" src="Read-image\image-program.png">
-</body>
-</html>
+</p>
 
 ## Description
 This is a simple graphical user interface (GUI) application written in Java using the Swing library. The program allows interactive animation of a red circle moving across a panel. Users can add new red circles by clicking the "Add Circle" button. Additionally, they can add obstacles in the form of black circles at random positions on the panel using the "Add Obstacle" button. The red circle can be controlled using the arrow keys on the keyboard, allowing it to move up, down, left, and right. Upon collision between the red circle and an obstacle (black circle), the red circle is destroyed.
